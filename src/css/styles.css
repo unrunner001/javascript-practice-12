@@ -90,10 +90,6 @@ ol {
   background-color: #6c8cff;
 }
 
-.loader {
-  text-align: center;
-}
-
 .gallery {
   display: flex;
   gap: 23px;
@@ -133,7 +129,7 @@ ol {
 .loader {
   display: flex;
   justify-content: center;
-  margin: auto;
+  margin: 10px auto;
   width: 64px;
   height: 48px;
   position: relative;
