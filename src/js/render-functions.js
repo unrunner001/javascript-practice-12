@@ -5,8 +5,8 @@ export function makeImages(arr) {
         webformatURL,
         largeImageURL,
         tags,
-        likes,
         views,
+        likes,
         comments,
         downloads,
       }) => `<li class="list-item">
