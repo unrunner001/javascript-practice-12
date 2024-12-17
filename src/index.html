@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Home Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <form class="form">
+        <input
+          class="search"
+          type="text"
+          name="search"
+          placeholder="Search images..."
+        />
+        <button class="form-btn" type="submit">Search</button>
+      </form>
+      <ul class="gallery"></ul>
+      <button type="button" class="load-btn hidden">Load more</button>
+      <div class="loader hidden"></div>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
